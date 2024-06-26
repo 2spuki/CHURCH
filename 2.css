@@ -1,0 +1,131 @@
+/* 2.css */
+body {
+    font-family: 'Arial, sans-serif';
+    background: linear-gradient(135deg, #f5e6ca, #a3a1ff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #5d34e6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5d34e6;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #5d34e6;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #5d34e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff69b4;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Message Board Styles */
+#message-board {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#messages {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.message {
+    background: rgba(245, 230, 202, 0.8);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #5d34e6;
+}
+
+.message h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #5d34e6;
+}
+
+.message p {
+    margin: 5px 0 0;
+    color: #333;
+}
